@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/GestureRecognition/Samples/Sample_OneHanded.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/GestureRecognition/GestureManager/GestureManager.unity
+    guid: 8d91ff346d965b042b02e8f26de1e499
+  - enabled: 0
+    path: Assets/GestureRecognition/Samples/Sample_TwoHanded.unity
+    guid: 47e3eed17990e2c4cba89062a7c0bb49
+  - enabled: 0
+    path: Assets/GestureRecognition/Samples/Sample_Military.unity
+    guid: df3ba80105f9da9449c5a1687b5b6b22
+  - enabled: 0
+    path: Assets/GestureRecognition/Samples/Sample_Pixie.unity
+    guid: af528a5b99845174fb9cf02fd8da115c
+  - enabled: 0
+    path: Assets/GestureRecognition/Samples/Sample_Phone.unity
+    guid: 0dcf345530576b944bc32f4fc7f8c0fe
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3ca128b9da63bc048a6af21b1cdcbb46,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 01fe8063c0341634096582dff353f854,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cb564e579d3ad384c8e73ef26de12e0a,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4858159cc7c8c6249a045809cd6dcc8d,
+      type: 2}
