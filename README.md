@@ -1,0 +1,2 @@
+# ResistanceArena
+Resistance Arena is a Unity VR exercise game designed to gamify resistance training. There are existing VR exergames available, though these are primarily focused on cardiovascular exercise and the games that focus on strength training often are prohibitively expensive gym equipment. Resistance Arena differs from these games because it's gameplay is solely focused on strength exercise through resistance training, made freely available to any users with an Oculus Headset.
