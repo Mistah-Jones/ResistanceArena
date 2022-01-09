@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F3418017-B4C3-1AB8-90F5-0E433FDF9147}</ProjectGuid>
+    <ProjectGuid>{B8840432-CC32-2D5C-C05E-B686921CB81F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,12 +58,12 @@
     <Compile Include="Assets\GestureRecognition\Samples\Sample_Mivry.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuCombinationButton.cs" />
     <Compile Include="Assets\GestureRecognition\Samples\Sample_Military.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Geometry.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\PDollarGestureRecognizer\Geometry.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\GestureManager.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuRecordButton.cs" />
     <Compile Include="Assets\GestureRecognition\Samples\Sample_Pixie.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\PointCloudRecognizer.cs" />
-    <Compile Include="Assets\PDollar\Scripts\Demo.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\PDollarGestureRecognizer\PointCloudRecognizer.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\Demo.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuTrainingButton.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\GestureManagerHandle.cs" />
     <Compile Include="Assets\GestureRecognition\GestureCombinations.cs" />
@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\BCStrike.cs" />
     <Compile Include="Assets\GestureRecognition\Mivry.cs" />
     <Compile Include="Assets\Scripts\WorkoutRecognition.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\Shooter.cs" />
     <Compile Include="Assets\GestureRecognition\Samples\Sample_Phone.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuFilesButton.cs" />
@@ -78,56 +79,55 @@
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuFiles.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\GestureManagerEditor.cs" />
     <Compile Include="Assets\Scripts\OHPAttack.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Result.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\PDollarGestureRecognizer\Result.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuGesture.cs" />
     <Compile Include="Assets\GestureRecognition\GestureRecognition.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrateSpawner.cs" />
     <Compile Include="Assets\GestureRecognition\Samples\Sample_TwoHanded.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\EditableTextField.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\GestureIO.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrate.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\DestroyAfterTime.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\PDollarGestureRecognizer\GestureIO.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuTraining.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Point.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\PDollarGestureRecognizer\Point.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuRecord.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuFileSuggestions.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Gesture.cs" />
+    <Compile Include="Assets\GestureRecognition\PDollar\Scripts\PDollarGestureRecognizer\Gesture.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\SubmenuGestureButton.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\KeyboardKey.cs" />
     <Compile Include="Assets\GestureRecognition\Samples\Sample_Continuous.cs" />
     <Compile Include="Assets\GestureRecognition\Samples\Sample_OneHanded.cs" />
     <Compile Include="Assets\ContinousMovement.cs" />
     <Compile Include="Assets\GestureRecognition\GestureManager\Scripts\GestureManagerButton.cs" />
-    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\Shooter.cs" />
-    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrateSpawner.cs" />
-    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrate.cs" />
-    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\DestroyAfterTime.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-exclamation_point-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-six_point_star-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-exclamation_point-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-six_point_star-01.xml" />
     <None Include="Assets\GestureRecognition\README.txt" />
     <None Include="Assets\GestureRecognition\Plugins\UWP\arm_64\gesturerecognition.dll" />
     <None Include="Assets\GestureRecognition\Plugins\UWP\x86_32\gesturerecognition.dll" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-asterisk-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-I-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-X-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-asterisk-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-I-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-X-01.xml" />
     <None Include="Assets\ArionDigital\CrashCrate\ReadMe.TXT" />
     <None Include="Assets\GestureRecognition\Plugins\UWP\arm_32\gesturerecognition.dll" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-H-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-line-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-T-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-H-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-line-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-T-01.xml" />
     <None Include="Assets\GestureRecognition\GestureManager\Resources\TuffyShader.shader" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-pitchfork-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-five_point_star-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-N-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-pitchfork-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-five_point_star-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-N-01.xml" />
     <None Include="Assets\GestureRecognition\Plugins\x86_64\gesturerecognition.dll" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-D-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-arrowhead-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-D-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-arrowhead-01.xml" />
     <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-P-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-P-01.xml" />
     <None Include="Assets\GestureRecognition\Plugins\x86\gesturerecognition.dll" />
     <None Include="Assets\GestureRecognition\Plugins\UWP\x86_64\gesturerecognition.dll" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-half_note-01.xml" />
-    <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-null-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-half_note-01.xml" />
+    <None Include="Assets\GestureRecognition\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-null-01.xml" />
     <None Include="Assets\Hovl Studio\Procedural fire\Demo scene\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -764,135 +764,135 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{F639EE7E-A7DB-DD73-86E9-3A521E8E9A4A}</Project>
+      <Project>{38C78847-40FC-BC25-41DE-BE838210A3A6}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{88F92D8A-2E9D-DD69-AE00-1A6415103D79}</Project>
+      <Project>{29CED4CA-9A1B-F667-A8D4-CBE72F8AF5B6}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{0A2CBBB9-E994-770B-DCE8-476D02841657}</Project>
+      <Project>{3A9C425F-7545-A301-C802-BAE8BBC71F13}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{216AEA67-32E6-BB54-FF36-53968401E8C8}</Project>
+      <Project>{468B426B-CDD6-DF4D-B8B3-9434726E5740}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{B95C5850-4A80-DFCB-FFA5-B74C4660A8FE}</Project>
+      <Project>{1D82B0FB-B562-CD7D-9E15-29D9E1FFB85C}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{E30A185C-39E5-3BAD-27DA-423DEF4B65FB}</Project>
+      <Project>{4283928B-86C4-E7A9-886E-B3D285BA3BE5}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{530AB9A2-B29A-C0BC-39E2-D122769D5E79}</Project>
+      <Project>{81501C52-E5CB-9FEE-EB45-AAEBD83A3D08}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{45F22FD8-F58E-A461-3555-58D89EB6E55B}</Project>
+      <Project>{A52B384F-35C4-E5C8-8272-4ECEBC9BF2DB}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{16DD2617-7721-6A57-3F04-63F1F9C2C1F9}</Project>
+      <Project>{14A26C09-C69F-32BF-791E-B6C1A4764F66}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.InteractionSubsystems.csproj">
-      <Project>{65258804-2616-4C49-63C7-A23AF81A303E}</Project>
+      <Project>{1F9B769B-60B9-F7BE-8014-8DC107B4D5BA}</Project>
       <Name>Unity.XR.InteractionSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Runtime.csproj">
-      <Project>{02AD4955-4FB2-A1E0-5F5C-BABC6A971DAE}</Project>
+      <Project>{D70C8700-2B07-B4F1-7101-569AFB3CD2A7}</Project>
       <Name>com.unity.multiplayer-hlapi.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
-      <Project>{5E9B1BFE-F39F-AA92-B29A-1D0CFC308014}</Project>
+      <Project>{209C22A4-A76A-16F2-6935-E094EAE6C90C}</Project>
       <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{FDA25397-8112-2B73-124D-2A80DAC6D592}</Project>
+      <Project>{85F1F0AC-59F4-DE9A-4F0E-302629D575DE}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{509F6ECD-AB53-2A2C-2B7B-A9E168BC0721}</Project>
+      <Project>{6E972454-CC4C-49F0-74AD-9F5618C05E80}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{CD275E24-4578-7434-DA37-04D950C0FC82}</Project>
+      <Project>{8A28712A-4AF4-55C5-7992-65F683598BE7}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{09333FCA-CBA6-11BC-28FA-AE7D0C84DCA5}</Project>
+      <Project>{E7A69E67-3E8D-39CC-4789-593DFB3306B9}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.WindowsMixedReality.csproj">
-      <Project>{6FC286D0-7375-FD0C-D882-D7C564947A37}</Project>
+      <Project>{7C0CB9C7-9454-22B6-47D7-9639EF9B0411}</Project>
       <Name>Unity.XR.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{425E8F73-521F-0AAB-58C6-860DDB6ED99D}</Project>
+      <Project>{4E835EA5-A7F3-7B70-0808-0FC67CBCE644}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{3D57F066-8798-ADAF-F0FD-DF8CF206484B}</Project>
+      <Project>{F51D3D1B-089A-CF32-01CF-57C9D69FDC0C}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{9EFEBAE0-030D-4E41-9A94-5B7D39C99538}</Project>
+      <Project>{BE361220-E8F2-7A82-737C-1C7BE43D0A3E}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{E462E8E0-0358-A4A6-6029-E28956CAFB96}</Project>
+      <Project>{9C1ED5C7-82D9-8D03-5A7A-E913020FED79}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{A9FC3D00-AD64-038E-C7F4-DA9B67E2B318}</Project>
+      <Project>{77DD2479-F5FD-E37C-4390-1F86130792D2}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
-      <Project>{59D4B966-43E1-C27E-137F-35A3B28CAD8F}</Project>
+      <Project>{7F78F91B-F2A3-A797-EAA5-99B1E1089B6E}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{9FDBD8D5-FB3D-F915-0250-3B311B6A75B3}</Project>
+      <Project>{7BF5A53F-D537-3228-19F5-433BE9A5907F}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.TestHelpers.csproj">
-      <Project>{E563F97E-9B97-BF9F-3EF4-AB6C0D74F1F2}</Project>
+      <Project>{30643EA5-790C-F75B-7416-78F9A200F7A8}</Project>
       <Name>Unity.XR.OpenXR.TestHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{41F50719-4F1D-ED13-F72B-350C4A37334E}</Project>
+      <Project>{79BAA960-E3C6-86AD-7182-3F4232CE18BE}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{E161AA1C-6EB3-AC29-898D-21C52010E39A}</Project>
+      <Project>{F6A388C6-8BBF-B947-F99F-6E73F1CBFE54}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{9EB3F9FA-218F-885B-2FC7-5BE4CE47DBDF}</Project>
+      <Project>{247AB70E-E389-4D31-427D-884D4B1F2E01}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{4DAC751D-483B-FC6A-5B4F-839E6EF6DB71}</Project>
+      <Project>{03C9AA71-D46B-476D-DB77-DCCAAF346E67}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{6FC6FA9B-3460-52C6-D72C-BBBACC3FF350}</Project>
+      <Project>{3DDBBFF4-6A97-55A0-EC8C-90F941F726FB}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{FEA215AB-DB1E-553E-5403-F3A58E679AF9}</Project>
+      <Project>{D35B7A24-743F-933B-05E2-68726A2911E2}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj">
-      <Project>{832A6B46-4C33-DF17-05DA-B310FFC0E97C}</Project>
+      <Project>{7EE3C1A4-3AF8-5B82-F3B1-C433F3902187}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{487D59E3-D5F1-33DD-D022-774C3A516F7A}</Project>
+      <Project>{9E59F072-58BA-95B7-EDA5-E88E24696ACB}</Project>
       <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
   </ItemGroup>
